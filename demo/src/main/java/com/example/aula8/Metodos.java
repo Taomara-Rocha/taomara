@@ -20,8 +20,8 @@ public class Metodos {
         double n2 = 8.0;
         Utilidades.calcularMedia(n1, n2);
 
-        boolean maiorDeIdade = Utilidades.ehMaiorDeIdade(17);
-        if (maiorDeIdade) {
+        boolean ehMaiorDeIdade = Utilidades.ehMaiorDeIdade(17);
+        if (ehMaiorDeIdade) {
             System.out.println("A pessoa é maior de idade.");
         } else {
             System.out.println("A pessoa é menor de idade.");
