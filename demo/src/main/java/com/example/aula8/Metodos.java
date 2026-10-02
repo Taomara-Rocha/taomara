@@ -1,10 +1,7 @@
 package com.example.aula8;
 
+import java.util.Scanner;
 
-//No main, chame os três e veja o Java escolher sozinho qual usar.
-//7 — Crie dois métodos chamados saudacao:
-//um sem parâmetro, que imprime "Olá!"
-//um que recebe um nome, e imprime "Olá, [nome]!"
 
 public class Metodos {
 
@@ -27,7 +24,17 @@ public class Metodos {
             System.out.println("A pessoa é menor de idade.");
         }
 
-        
+        int somar = Utilidades.somar(3, 4);
+        System.out.println("A soma de 3 e 4 é: " + somar);
+
+        String saudacao = "Olá!";
+        System.out.println(saudacao);
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Digite seu nome: ");
+        String nome = scanner.nextLine();
+        Utilidades.saudacao(nome);
+
+    
     }   
 
 }
