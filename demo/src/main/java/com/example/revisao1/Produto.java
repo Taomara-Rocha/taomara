@@ -1,27 +1,39 @@
 package com.example.revisao1;
 
-/**
- * Produto
- */
+//Crie uma classe chamada Produto com os atributos nome (String) e preco (double).
+//Instancie um novo Produto e guarde nele os valores digitados.
+
+
 public class Produto {
 
+
+    private String nome;
+    private double preco;
+
     public Produto(String nome, double preco) {
-        //TODO Auto-generated constructor stub
+        this.nome = nome;
+        this.preco = preco;
     }
 
-    public int getPreco() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getPreco'");
+    public String getNome() {
+        return nome;
     }
 
-    public int preco() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'preco'");
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    public Object nome() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'nome'");
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
     }
 
 }
+
+    
+
+    
+

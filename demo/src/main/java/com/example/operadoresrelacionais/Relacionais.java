@@ -1,4 +1,4 @@
-package com.example.operadoresrelacionais;
+package com.example.operadoresRelacionais;
 
 
 public class Relacionais {

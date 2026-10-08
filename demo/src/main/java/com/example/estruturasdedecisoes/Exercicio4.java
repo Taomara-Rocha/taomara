@@ -1,4 +1,4 @@
-package com.example.estruturasdedecisoes;
+package com.example.estruturasDeDecisoes;
 
 //Crie variáveis idade (17) e temAutorizacao (true). Mostre se a pessoa pode entrar na festa: precisa ter 18 anos ou ter autorização. Faça o mesmo para precisa ter 18 anos e ter autorização;
 

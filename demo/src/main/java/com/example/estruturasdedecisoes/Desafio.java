@@ -1,4 +1,4 @@
-package com.example.estruturasdedecisoes;
+package com.example.estruturasDeDecisoes;
 
 //Desafio: Crie variáveis para três notas de uma aluna. Calcule a média e mostre: "Aprovada" se for 7 ou mais, "Recuperação" entre 5 e 6.9, e "Reprovada" abaixo de 5. Mostre também a média na tela. Valores: nota1 = 5.3, nota2 = 7.8 , nota3 = 4.5.
 

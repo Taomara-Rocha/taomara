@@ -1,5 +1,7 @@
 package com.example.revisao1;
 
+import java.util.Scanner;
+
 //Crie uma classe chamada Produto com os atributos nome (String) e preco (double).
 //Na classe principal, faça um laço for que repita 3 vezes.
 //A cada repetição, o programa deve usar o Scanner para perguntar o nome e o preço de um produto.
@@ -10,8 +12,9 @@ package com.example.revisao1;
 public class Exercicio5 {
 
     public static void main(String[] args) {
-        
-        java.util.Scanner scanner = new java.util.Scanner(System.in);
+
+
+        Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i < 3; i++) {
             System.out.print("Digite o nome do produto: ");
@@ -19,18 +22,17 @@ public class Exercicio5 {
 
             System.out.print("Digite o preço do produto: ");
             double preco = scanner.nextDouble();
-            scanner.nextLine(); // Limpar o buffer do scanner
+            scanner.nextLine();
 
             Produto produto = new Produto(nome, preco);
 
-            if (produto.preco() > 100) {
-                System.out.printf("Produto caro! O preço de %s é R$ %.2f%n", produto.nome(), produto.preco());
+            if (preco > 100) {
+                System.out.println("Produto caro!");
             } else {
-                System.out.printf("Produto com preço acessível! O preço de %s é R$ %.2f%n", produto.nome(), produto.preco());
+                System.out.println("Produto com preço acessível!");
             }
         }
 
         scanner.close();
     }
-
 }

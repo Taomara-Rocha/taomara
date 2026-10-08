@@ -15,7 +15,7 @@ public class Exercicio6 {
 
         System.out.print("Digite o seu Ano de Nascimento: ");
         int anoNascimento = scanner.nextInt();
-        scanner.nextLine(); // Limpar o buffer do scanner
+        scanner.nextLine();
 
         System.out.print("Digite o seu Nome Completo: ");
         String nomeCompleto = scanner.nextLine();
