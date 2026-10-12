@@ -19,16 +19,16 @@ public class ExplicacaoArrayDeque {
 
         ArrayDeque<String> fila = new ArrayDeque<>(); 
 
-        fila.add("Ana");
-        fila.add("Bia");
-        fila.addAll(List.of("Paula", "Claudia", "Aline", "Lilian")); //
-        System.out.println(fila);
+        fila.add("Ana"); //adiciona a fila
+        fila.add("Bia"); //adiciona a fila
+        fila.addAll(List.of("Paula", "Claudia", "Aline", "Lilian")); //adiciona a fila
+        System.out.println(fila); //imprime a fila
         System.out.println(fila.peek()); //
         System.out.println(fila.poll()); //
-        //fila.poll();
+        //fila.poll(); //retira o primeiro elemento da fila
 
-        System.out.println(fila.isEmpty());
-        System.out.println(fila.size());
+        System.out.println(fila.isEmpty()); //verifica se a fila está vazia
+        System.out.println(fila.size()); //retorna o tamanho da fila
 
 }
 }

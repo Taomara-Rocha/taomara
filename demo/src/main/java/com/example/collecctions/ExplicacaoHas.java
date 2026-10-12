@@ -19,9 +19,9 @@ public class ExplicacaoHas {
 
 HashMap<String, String> emails = new HashMap<>();
 
-emails.put ("Ane", "ane@gmail.com");
-emails.put ("João", "joao@gmail.com");
-emails.put ("posição 2", "qualquer coisa");
+emails.put ("Ane", "ane@gmail.com"); //adiciona a chave "Ane" com o valor "ane@gmail.com"
+emails.put ("João", "joao@gmail.com"); //adiciona a chave "João" com o valor "joao@gmail.com"
+emails.put ("posição 2", "qualquer coisa"); //adiciona a chave "posição 2" com o valor "qualquer coisa"
 
 System.out.println(emails.get("Ane")); //retorna o valor do email da chave "Ane"
 System.out.println(emails.get("João")); //retorna o valor do email da chave "João"

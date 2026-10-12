@@ -20,5 +20,5 @@ public class ExplicacaoHashSet {
 
         HashSet<String> nomes = new HashSet<>();
         
-
+}
 }

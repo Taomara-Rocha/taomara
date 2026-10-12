@@ -9,12 +9,10 @@ public class Exercicio2 {
 
     public static void main(String[] args) {
 
-
     Scanner scanner = new Scanner(System.in);
-    int[] notas = new int[5];
+    int[] notas = {8,6,5,9,4};
     System.out.println(notas.length);
 
-  
     int posicao;
     System.out.print("Digite a posição da nota que deseja visualizar (0 a 4): ");
     posicao = scanner.nextInt();
