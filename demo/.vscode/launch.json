@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch MainPet",
+      "request": "launch",
+      "mainClass": "com.example.atividadesConstrutores.MainPet",
+      "projectName": "demo",
+      "classPaths": ["${workspaceFolder}/target/classes"],
+      "modulePaths": []
+    }
+  ]
+}

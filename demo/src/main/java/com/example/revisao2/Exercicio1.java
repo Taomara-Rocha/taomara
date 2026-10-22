@@ -1,9 +1,5 @@
 package com.example.revisao2;
 
-
-//Crie variáveis com seu nome, sua idade, sua altura e se você já programou antes. Imprima cada uma.
-
-
 public class Exercicio1 {
 
     public static void main(String[] args) {
@@ -34,7 +30,13 @@ public class Exercicio1 {
         int a = 10;
         int b = 20;
 
-        System.out.println();
+        System.out.println("Antes: a = " + a + " e b = " + b);
+      
+        int temp = a;
+        a = b;
+        b = temp;
+
+        System.out.println("Depois: a = " + a + " e b = " + b); 
 
 }
 }
