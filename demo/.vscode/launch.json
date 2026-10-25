@@ -3,11 +3,53 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MainFacade",
+      "request": "launch",
+      "mainClass": "com.example.aula22.MainFacade",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "MainAdapter",
+      "request": "launch",
+      "mainClass": "com.example.aula22.MainAdapter",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "com.example.Main",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "Exercicio1",
+      "request": "launch",
+      "mainClass": "com.example.atividadeScanner.Exercicio1"
+    },
+    {
+      "type": "java",
+      "name": "MainFactory",
+      "request": "launch",
+      "mainClass": "com.example.aula22.MainFactory"
+    },
+    {
+      "type": "java",
+      "name": "MainFactory",
+      "request": "launch",
+      "mainClass": "com.example.aula22.MainFactory",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
       "name": "Launch MainPet",
       "request": "launch",
       "mainClass": "com.example.atividadesConstrutores.MainPet",
       "projectName": "demo",
-      "classPaths": ["${workspaceFolder}/target/classes"],
+      "classPaths": [
+        "${workspaceFolder}/target/classes"
+      ],
       "modulePaths": []
     }
   ]

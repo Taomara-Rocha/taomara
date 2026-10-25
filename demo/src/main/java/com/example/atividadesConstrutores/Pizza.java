@@ -12,7 +12,6 @@ public class Pizza {
         this.borda = builder.borda;
     }
 
-
     public static class Builder{
         String sabor;
         boolean temQueijo;
