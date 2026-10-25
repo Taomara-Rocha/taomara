@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MainVeiculo",
+      "request": "launch",
+      "mainClass": "com.example.atividadeInterfaces.MainVeiculo",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "MainNotificacao",
+      "request": "launch",
+      "mainClass": "com.example.atividadeInterfaces.MainNotificacao",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "MainAnimal",
+      "request": "launch",
+      "mainClass": "com.example.atividadeInterfaces.MainAnimal",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "MainAcai",
+      "request": "launch",
+      "mainClass": "com.example.atividadeDecorator.MainAcai",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
       "name": "Exercicio6",
       "request": "launch",
       "mainClass": "com.example.atividadeEncapsulamento.Exercicio6",
