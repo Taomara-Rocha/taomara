@@ -1,6 +1,9 @@
 package com.example.atividadesConstrutores;
 
 public class Agendamento {
+
+
+    
     public String nomePet;
     public String servico;
     public String horario;

@@ -6,7 +6,7 @@ public class Exercicio2 {
 
        ContaBancaria c = new ContaBancaria();
 
-    System.out.println("Titular: " + c.getterTitular());
+    System.out.println("Titular: " + c.getTitular());
     System.out.println("Saldo: " + c.getterSaldo());
 
 }

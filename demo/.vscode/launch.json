@@ -3,6 +3,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Exercicio6",
+      "request": "launch",
+      "mainClass": "com.example.atividadeEncapsulamento.Exercicio6",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "Exercicio5",
+      "request": "launch",
+      "mainClass": "com.example.atividadeEncapsulamento.Exercicio5",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "Exercicio4",
+      "request": "launch",
+      "mainClass": "com.example.atividadeEncapsulamento.Exercicio4",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "Exercicio3",
+      "request": "launch",
+      "mainClass": "com.example.atividadeEncapsulamento.Exercicio3",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "Exercicio2",
+      "request": "launch",
+      "mainClass": "com.example.atividadeEncapsulamento.Exercicio2",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "Exercicio1",
+      "request": "launch",
+      "mainClass": "com.example.atividadeEncapsulamento.Exercicio1",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "AtividadeBuilder",
+      "request": "launch",
+      "mainClass": "com.example.atividadeBuilder.AtividadeBuilder",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
       "name": "MainFacade",
       "request": "launch",
       "mainClass": "com.example.aula22.MainFacade",

@@ -6,15 +6,11 @@ public class Exercicio6 {
 
         ContaBancaria c = new ContaBancaria();
         c.setTitular("Ana");
-        c.depositar(500);
-        c.depositar(-100);
-        c.sacar(2000);
-        c.sacar(200);
 
-        System.out.println("Saldo: " + c.getterSaldo());
+        System.out.println("Numero da conta: " + c.getNumeroConta());
 
+        //c.setNumeroConta("999-Z");
     }
-   
 }
 
 

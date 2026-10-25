@@ -10,11 +10,11 @@ public class Exercicio3 {
         //System.out.println("Saldo: " + c.getterSaldo());
 
         c.setTitular("");
-        System.out.println("Titular: " + c.getterTitular());
+        System.out.println("Titular: " + c.getTitular());
         //System.out.println("Saldo: " + c.getterSaldo());
 
-        c.setterTitular("Ana");
-        System.out.println("Titular: " + c.getterTitular());
+        c.setTitular("Ana");
+        System.out.println("Titular: " + c.getTitular());
         //System.out.println("Saldo: " + c.getterSaldo());
 
     }
