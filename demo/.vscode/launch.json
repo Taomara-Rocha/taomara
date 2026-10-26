@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MainVoo",
+      "request": "launch",
+      "mainClass": "com.example.aula24.MainVoo",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
       "name": "MainVeiculo",
       "request": "launch",
       "mainClass": "com.example.atividadeInterfaces.MainVeiculo",
