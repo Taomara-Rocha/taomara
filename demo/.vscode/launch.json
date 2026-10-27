@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MainEstoque",
+      "request": "launch",
+      "mainClass": "com.example.aula24.MainEstoque",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "MainCompra",
+      "request": "launch",
+      "mainClass": "com.example.aula24.MainCompra",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
       "name": "MainVoo",
       "request": "launch",
       "mainClass": "com.example.aula24.MainVoo",
